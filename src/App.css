@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background: linear-gradient(120deg, #FEE3BC 20%, #FEA14E 90%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  border: 6px solid #FFFFFF;
+  box-shadow: 30px 30px 40px -10px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 18px;
+  max-width: 500px;
+}
